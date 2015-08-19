@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C34FB231B5E655A00645CE0 /* error.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB221B5E655A00645CE0 /* error.php */; };
+		4C34FB291B5E658800645CE0 /* index.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB241B5E658800645CE0 /* index.php */; };
+		4C34FB2A1B5E658800645CE0 /* protected_page.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB251B5E658800645CE0 /* protected_page.php */; };
+		4C34FB2B1B5E658800645CE0 /* register_success.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB261B5E658800645CE0 /* register_success.php */; };
+		4C34FB2C1B5E658800645CE0 /* register.inc.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB271B5E658800645CE0 /* register.inc.php */; };
+		4C34FB2D1B5E658800645CE0 /* service.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB281B5E658800645CE0 /* service.php */; };
+		4C34FB301B5E659700645CE0 /* forms.js in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB2E1B5E659700645CE0 /* forms.js */; };
+		4C34FB311B5E659700645CE0 /* sha512.js in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB2F1B5E659700645CE0 /* sha512.js */; };
+		4C34FB381B5E65A900645CE0 /* config.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB321B5E65A900645CE0 /* config.php */; };
+		4C34FB391B5E65A900645CE0 /* db_connect.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB331B5E65A900645CE0 /* db_connect.php */; };
+		4C34FB3A1B5E65A900645CE0 /* functions.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB341B5E65A900645CE0 /* functions.php */; };
+		4C34FB3B1B5E65A900645CE0 /* login.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB351B5E65A900645CE0 /* login.php */; };
+		4C34FB3C1B5E65A900645CE0 /* logout.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB361B5E65A900645CE0 /* logout.php */; };
+		4C34FB3D1B5E65A900645CE0 /* register.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB371B5E65A900645CE0 /* register.php */; };
+		4C34FB3F1B5E65F900645CE0 /* settings.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB3E1B5E65F900645CE0 /* settings.php */; };
+		4C34FB411B5E661200645CE0 /* database.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB401B5E661200645CE0 /* database.php */; };
+		4C34FB431B5E662600645CE0 /* register.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB421B5E662600645CE0 /* register.php */; };
+		4C34FB451B5E663800645CE0 /* login.php in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB441B5E663800645CE0 /* login.php */; };
+		4C34FB471B5E666600645CE0 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB461B5E666600645CE0 /* README */; };
+		4C34FB491B5E669000645CE0 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 4C34FB481B5E669000645CE0 /* README */; };
+		4C69B9F71B67D29200F5AB7F /* HandshakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69B9F61B67D29200F5AB7F /* HandshakeViewController.swift */; };
+		4C6E88651B81308B001C602D /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E88641B81308B001C602D /* ItemsTableViewController.swift */; };
+		4C6E88671B8143DA001C602D /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E88661B8143DA001C602D /* ItemCell.xib */; };
+		4C6E88691B814506001C602D /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E88681B814506001C602D /* ItemCell.swift */; };
+		4C85FBDC1B8077E9007FC0A4 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85FBDA1B8077E9007FC0A4 /* NameViewController.swift */; };
+		4C85FBDD1B8077E9007FC0A4 /* NameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C85FBDB1B8077E9007FC0A4 /* NameViewController.xib */; };
+		4C85FBDF1B80864C007FC0A4 /* TabName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85FBDE1B80864C007FC0A4 /* TabName.swift */; };
+		4C85FBE11B808CBE007FC0A4 /* TabNameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85FBE01B808CBE007FC0A4 /* TabNameStore.swift */; };
+		4C85FBE31B80BC0D007FC0A4 /* TabNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85FBE21B80BC0D007FC0A4 /* TabNameCell.swift */; };
+		4C85FBE51B80BC35007FC0A4 /* TabNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C85FBE41B80BC35007FC0A4 /* TabNameCell.xib */; };
+		4C939C481B3EE85700152C88 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C939C471B3EE85700152C88 /* MainViewController.swift */; };
+		4C939C4B1B3F1C6A00152C88 /* UserAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C939C491B3F1C6900152C88 /* UserAccountViewController.swift */; };
+		4C939C4C1B3F1C6A00152C88 /* UserAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C939C4A1B3F1C6900152C88 /* UserAccountViewController.xib */; };
+		4C939C4F1B402ACD00152C88 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C939C4D1B402ACD00152C88 /* RegisterViewController.swift */; };
+		4C939C501B402ACD00152C88 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C939C4E1B402ACD00152C88 /* RegisterViewController.xib */; };
+		4CA3133D1B416BCA0032B516 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3133B1B416BCA0032B516 /* LoginViewController.swift */; };
+		4CA3133E1B416BCA0032B516 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA3133C1B416BCA0032B516 /* LoginViewController.xib */; };
+		4CB5B0811B73488200D049E4 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB5B0801B73488200D049E4 /* HeaderView.xib */; };
+		4CB5B0881B736B4900D049E4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5B0861B736B4900D049E4 /* DetailView.swift */; };
+		4CB5B0891B736B4900D049E4 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB5B0871B736B4900D049E4 /* DetailView.xib */; };
+		4CB5B08B1B738B1100D049E4 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5B08A1B738B1100D049E4 /* ItemStore.swift */; };
+		4CB5B08D1B73A6BA00D049E4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5B08C1B73A6BA00D049E4 /* Item.swift */; };
+		4CE20E191B3CA23F00795572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE20E181B3CA23F00795572 /* AppDelegate.swift */; };
+		4CE20E201B3CA23F00795572 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE20E1F1B3CA23F00795572 /* Images.xcassets */; };
+		4CE20E231B3CA23F00795572 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE20E211B3CA23F00795572 /* LaunchScreen.xib */; };
+		4CE20E2F1B3CA23F00795572 /* HandshakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE20E2E1B3CA23F00795572 /* HandshakeTests.swift */; };
+		4CE20E3B1B3CA2D900795572 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE20E3A1B3CA2D900795572 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CE20E291B3CA23F00795572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CE20E0B1B3CA23F00795572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE20E121B3CA23F00795572;
+			remoteInfo = Handshake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C34FB221B5E655A00645CE0 /* error.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = error.php; path = Webapi/error.php; sourceTree = "<group>"; };
+		4C34FB241B5E658800645CE0 /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = index.php; path = Webapi/index.php; sourceTree = "<group>"; };
+		4C34FB251B5E658800645CE0 /* protected_page.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = protected_page.php; path = Webapi/protected_page.php; sourceTree = "<group>"; };
+		4C34FB261B5E658800645CE0 /* register_success.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = register_success.php; path = Webapi/register_success.php; sourceTree = "<group>"; };
+		4C34FB271B5E658800645CE0 /* register.inc.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = register.inc.php; path = Webapi/register.inc.php; sourceTree = "<group>"; };
+		4C34FB281B5E658800645CE0 /* service.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = service.php; path = Webapi/service.php; sourceTree = "<group>"; };
+		4C34FB2E1B5E659700645CE0 /* forms.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = forms.js; path = Webapi/js/forms.js; sourceTree = "<group>"; };
+		4C34FB2F1B5E659700645CE0 /* sha512.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = sha512.js; path = Webapi/js/sha512.js; sourceTree = "<group>"; };
+		4C34FB321B5E65A900645CE0 /* config.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = config.php; path = Webapi/includes/config.php; sourceTree = "<group>"; };
+		4C34FB331B5E65A900645CE0 /* db_connect.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = db_connect.php; path = Webapi/includes/db_connect.php; sourceTree = "<group>"; };
+		4C34FB341B5E65A900645CE0 /* functions.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = functions.php; path = Webapi/includes/functions.php; sourceTree = "<group>"; };
+		4C34FB351B5E65A900645CE0 /* login.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = login.php; path = Webapi/includes/login.php; sourceTree = "<group>"; };
+		4C34FB361B5E65A900645CE0 /* logout.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = logout.php; path = Webapi/includes/logout.php; sourceTree = "<group>"; };
+		4C34FB371B5E65A900645CE0 /* register.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = register.php; path = Webapi/includes/register.php; sourceTree = "<group>"; };
+		4C34FB3E1B5E65F900645CE0 /* settings.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = settings.php; path = Weblogin/settings.php; sourceTree = "<group>"; };
+		4C34FB401B5E661200645CE0 /* database.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = database.php; path = Weblogin/database.php; sourceTree = "<group>"; };
+		4C34FB421B5E662600645CE0 /* register.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = register.php; path = Weblogin/register.php; sourceTree = "<group>"; };
+		4C34FB441B5E663800645CE0 /* login.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = login.php; path = Weblogin/login.php; sourceTree = "<group>"; };
+		4C34FB461B5E666600645CE0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = Weblogin/README; sourceTree = "<group>"; };
+		4C34FB481B5E669000645CE0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = Webapi/README; sourceTree = "<group>"; };
+		4C69B9F61B67D29200F5AB7F /* HandshakeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandshakeViewController.swift; sourceTree = "<group>"; };
+		4C6E88641B81308B001C602D /* ItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		4C6E88661B8143DA001C602D /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		4C6E88681B814506001C602D /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		4C85FBDA1B8077E9007FC0A4 /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		4C85FBDB1B8077E9007FC0A4 /* NameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameViewController.xib; sourceTree = "<group>"; };
+		4C85FBDE1B80864C007FC0A4 /* TabName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabName.swift; sourceTree = "<group>"; };
+		4C85FBE01B808CBE007FC0A4 /* TabNameStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabNameStore.swift; sourceTree = "<group>"; };
+		4C85FBE21B80BC0D007FC0A4 /* TabNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabNameCell.swift; sourceTree = "<group>"; };
+		4C85FBE41B80BC35007FC0A4 /* TabNameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabNameCell.xib; sourceTree = "<group>"; };
+		4C939C471B3EE85700152C88 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4C939C491B3F1C6900152C88 /* UserAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountViewController.swift; sourceTree = "<group>"; };
+		4C939C4A1B3F1C6900152C88 /* UserAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAccountViewController.xib; sourceTree = "<group>"; };
+		4C939C4D1B402ACD00152C88 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../RegisterViewController.swift; sourceTree = "<group>"; };
+		4C939C4E1B402ACD00152C88 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = ../RegisterViewController.xib; sourceTree = "<group>"; };
+		4CA3133B1B416BCA0032B516 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4CA3133C1B416BCA0032B516 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4CB5B0801B73488200D049E4 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		4CB5B0861B736B4900D049E4 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4CB5B0871B736B4900D049E4 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		4CB5B08A1B738B1100D049E4 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		4CB5B08C1B73A6BA00D049E4 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4CE20E131B3CA23F00795572 /* Handshake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handshake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE20E171B3CA23F00795572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE20E181B3CA23F00795572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CE20E1F1B3CA23F00795572 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CE20E221B3CA23F00795572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CE20E281B3CA23F00795572 /* HandshakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandshakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE20E2D1B3CA23F00795572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE20E2E1B3CA23F00795572 /* HandshakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandshakeTests.swift; sourceTree = "<group>"; };
+		4CE20E3A1B3CA2D900795572 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE20E101B3CA23F00795572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE20E251B3CA23F00795572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C34FB1F1B5E62B300645CE0 /* Weblogin */ = {
+			isa = PBXGroup;
+			children = (
+				4C34FB3E1B5E65F900645CE0 /* settings.php */,
+				4C34FB401B5E661200645CE0 /* database.php */,
+				4C34FB421B5E662600645CE0 /* register.php */,
+				4C34FB441B5E663800645CE0 /* login.php */,
+				4C34FB461B5E666600645CE0 /* README */,
+			);
+			name = Weblogin;
+			sourceTree = "<group>";
+		};
+		4C939C531B40C52600152C88 /* Webapi - Secure Login Script */ = {
+			isa = PBXGroup;
+			children = (
+				4C34FB481B5E669000645CE0 /* README */,
+				4C939C621B40C68600152C88 /* includes */,
+				4C939C6F1B40C6C700152C88 /* js */,
+				4C34FB241B5E658800645CE0 /* index.php */,
+				4C34FB251B5E658800645CE0 /* protected_page.php */,
+				4C34FB261B5E658800645CE0 /* register_success.php */,
+				4C34FB271B5E658800645CE0 /* register.inc.php */,
+				4C34FB281B5E658800645CE0 /* service.php */,
+				4C34FB221B5E655A00645CE0 /* error.php */,
+			);
+			name = "Webapi - Secure Login Script";
+			sourceTree = "<group>";
+		};
+		4C939C621B40C68600152C88 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				4C34FB321B5E65A900645CE0 /* config.php */,
+				4C34FB331B5E65A900645CE0 /* db_connect.php */,
+				4C34FB341B5E65A900645CE0 /* functions.php */,
+				4C34FB351B5E65A900645CE0 /* login.php */,
+				4C34FB361B5E65A900645CE0 /* logout.php */,
+				4C34FB371B5E65A900645CE0 /* register.php */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+		4C939C6F1B40C6C700152C88 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				4C34FB2E1B5E659700645CE0 /* forms.js */,
+				4C34FB2F1B5E659700645CE0 /* sha512.js */,
+			);
+			name = js;
+			sourceTree = "<group>";
+		};
+		4CE20E0A1B3CA23F00795572 = {
+			isa = PBXGroup;
+			children = (
+				4CE20E151B3CA23F00795572 /* Handshake */,
+				4CE20E2B1B3CA23F00795572 /* HandshakeTests */,
+				4CE20E141B3CA23F00795572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CE20E141B3CA23F00795572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE20E131B3CA23F00795572 /* Handshake.app */,
+				4CE20E281B3CA23F00795572 /* HandshakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE20E151B3CA23F00795572 /* Handshake */ = {
+			isa = PBXGroup;
+			children = (
+				4C34FB1F1B5E62B300645CE0 /* Weblogin */,
+				4C939C531B40C52600152C88 /* Webapi - Secure Login Script */,
+				4CE20E181B3CA23F00795572 /* AppDelegate.swift */,
+				4C939C471B3EE85700152C88 /* MainViewController.swift */,
+				4CE20E3A1B3CA2D900795572 /* MainView.swift */,
+				4C939C491B3F1C6900152C88 /* UserAccountViewController.swift */,
+				4C939C4A1B3F1C6900152C88 /* UserAccountViewController.xib */,
+				4C939C4D1B402ACD00152C88 /* RegisterViewController.swift */,
+				4C939C4E1B402ACD00152C88 /* RegisterViewController.xib */,
+				4CA3133B1B416BCA0032B516 /* LoginViewController.swift */,
+				4CA3133C1B416BCA0032B516 /* LoginViewController.xib */,
+				4C69B9F61B67D29200F5AB7F /* HandshakeViewController.swift */,
+				4CB5B0801B73488200D049E4 /* HeaderView.xib */,
+				4CB5B0861B736B4900D049E4 /* DetailView.swift */,
+				4CB5B0871B736B4900D049E4 /* DetailView.xib */,
+				4C6E88641B81308B001C602D /* ItemsTableViewController.swift */,
+				4CB5B08C1B73A6BA00D049E4 /* Item.swift */,
+				4CB5B08A1B738B1100D049E4 /* ItemStore.swift */,
+				4C6E88681B814506001C602D /* ItemCell.swift */,
+				4C6E88661B8143DA001C602D /* ItemCell.xib */,
+				4CE20E1F1B3CA23F00795572 /* Images.xcassets */,
+				4CE20E211B3CA23F00795572 /* LaunchScreen.xib */,
+				4CE20E161B3CA23F00795572 /* Supporting Files */,
+				4C85FBDA1B8077E9007FC0A4 /* NameViewController.swift */,
+				4C85FBDB1B8077E9007FC0A4 /* NameViewController.xib */,
+				4C85FBDE1B80864C007FC0A4 /* TabName.swift */,
+				4C85FBE01B808CBE007FC0A4 /* TabNameStore.swift */,
+				4C85FBE21B80BC0D007FC0A4 /* TabNameCell.swift */,
+				4C85FBE41B80BC35007FC0A4 /* TabNameCell.xib */,
+			);
+			path = Handshake;
+			sourceTree = "<group>";
+		};
+		4CE20E161B3CA23F00795572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE20E171B3CA23F00795572 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CE20E2B1B3CA23F00795572 /* HandshakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CE20E2E1B3CA23F00795572 /* HandshakeTests.swift */,
+				4CE20E2C1B3CA23F00795572 /* Supporting Files */,
+			);
+			path = HandshakeTests;
+			sourceTree = "<group>";
+		};
+		4CE20E2C1B3CA23F00795572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE20E2D1B3CA23F00795572 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE20E121B3CA23F00795572 /* Handshake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE20E321B3CA23F00795572 /* Build configuration list for PBXNativeTarget "Handshake" */;
+			buildPhases = (
+				4CE20E0F1B3CA23F00795572 /* Sources */,
+				4CE20E101B3CA23F00795572 /* Frameworks */,
+				4CE20E111B3CA23F00795572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Handshake;
+			productName = Handshake;
+			productReference = 4CE20E131B3CA23F00795572 /* Handshake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CE20E271B3CA23F00795572 /* HandshakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE20E351B3CA23F00795572 /* Build configuration list for PBXNativeTarget "HandshakeTests" */;
+			buildPhases = (
+				4CE20E241B3CA23F00795572 /* Sources */,
+				4CE20E251B3CA23F00795572 /* Frameworks */,
+				4CE20E261B3CA23F00795572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE20E2A1B3CA23F00795572 /* PBXTargetDependency */,
+			);
+			name = HandshakeTests;
+			productName = HandshakeTests;
+			productReference = 4CE20E281B3CA23F00795572 /* HandshakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CE20E0B1B3CA23F00795572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Michael Borgmann";
+				TargetAttributes = {
+					4CE20E121B3CA23F00795572 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = FNBTP68MJQ;
+					};
+					4CE20E271B3CA23F00795572 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 4CE20E121B3CA23F00795572;
+					};
+				};
+			};
+			buildConfigurationList = 4CE20E0E1B3CA23F00795572 /* Build configuration list for PBXProject "Handshake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CE20E0A1B3CA23F00795572;
+			productRefGroup = 4CE20E141B3CA23F00795572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE20E121B3CA23F00795572 /* Handshake */,
+				4CE20E271B3CA23F00795572 /* HandshakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CE20E111B3CA23F00795572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C34FB291B5E658800645CE0 /* index.php in Resources */,
+				4C34FB2D1B5E658800645CE0 /* service.php in Resources */,
+				4C6E88671B8143DA001C602D /* ItemCell.xib in Resources */,
+				4C34FB381B5E65A900645CE0 /* config.php in Resources */,
+				4C85FBDD1B8077E9007FC0A4 /* NameViewController.xib in Resources */,
+				4CA3133E1B416BCA0032B516 /* LoginViewController.xib in Resources */,
+				4C34FB3C1B5E65A900645CE0 /* logout.php in Resources */,
+				4C34FB3A1B5E65A900645CE0 /* functions.php in Resources */,
+				4C34FB3F1B5E65F900645CE0 /* settings.php in Resources */,
+				4C34FB3B1B5E65A900645CE0 /* login.php in Resources */,
+				4C34FB3D1B5E65A900645CE0 /* register.php in Resources */,
+				4C939C501B402ACD00152C88 /* RegisterViewController.xib in Resources */,
+				4C34FB301B5E659700645CE0 /* forms.js in Resources */,
+				4C34FB391B5E65A900645CE0 /* db_connect.php in Resources */,
+				4C85FBE51B80BC35007FC0A4 /* TabNameCell.xib in Resources */,
+				4CB5B0891B736B4900D049E4 /* DetailView.xib in Resources */,
+				4CE20E231B3CA23F00795572 /* LaunchScreen.xib in Resources */,
+				4CE20E201B3CA23F00795572 /* Images.xcassets in Resources */,
+				4C34FB2A1B5E658800645CE0 /* protected_page.php in Resources */,
+				4C34FB311B5E659700645CE0 /* sha512.js in Resources */,
+				4C34FB2B1B5E658800645CE0 /* register_success.php in Resources */,
+				4C34FB431B5E662600645CE0 /* register.php in Resources */,
+				4C939C4C1B3F1C6A00152C88 /* UserAccountViewController.xib in Resources */,
+				4C34FB471B5E666600645CE0 /* README in Resources */,
+				4C34FB491B5E669000645CE0 /* README in Resources */,
+				4C34FB451B5E663800645CE0 /* login.php in Resources */,
+				4C34FB231B5E655A00645CE0 /* error.php in Resources */,
+				4CB5B0811B73488200D049E4 /* HeaderView.xib in Resources */,
+				4C34FB411B5E661200645CE0 /* database.php in Resources */,
+				4C34FB2C1B5E658800645CE0 /* register.inc.php in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE20E261B3CA23F00795572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE20E0F1B3CA23F00795572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C939C4F1B402ACD00152C88 /* RegisterViewController.swift in Sources */,
+				4CB5B0881B736B4900D049E4 /* DetailView.swift in Sources */,
+				4C6E88651B81308B001C602D /* ItemsTableViewController.swift in Sources */,
+				4C939C4B1B3F1C6A00152C88 /* UserAccountViewController.swift in Sources */,
+				4CA3133D1B416BCA0032B516 /* LoginViewController.swift in Sources */,
+				4C939C481B3EE85700152C88 /* MainViewController.swift in Sources */,
+				4CB5B08D1B73A6BA00D049E4 /* Item.swift in Sources */,
+				4C85FBDC1B8077E9007FC0A4 /* NameViewController.swift in Sources */,
+				4C6E88691B814506001C602D /* ItemCell.swift in Sources */,
+				4CE20E3B1B3CA2D900795572 /* MainView.swift in Sources */,
+				4C85FBDF1B80864C007FC0A4 /* TabName.swift in Sources */,
+				4C69B9F71B67D29200F5AB7F /* HandshakeViewController.swift in Sources */,
+				4C85FBE31B80BC0D007FC0A4 /* TabNameCell.swift in Sources */,
+				4CB5B08B1B738B1100D049E4 /* ItemStore.swift in Sources */,
+				4C85FBE11B808CBE007FC0A4 /* TabNameStore.swift in Sources */,
+				4CE20E191B3CA23F00795572 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE20E241B3CA23F00795572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE20E2F1B3CA23F00795572 /* HandshakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CE20E2A1B3CA23F00795572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE20E121B3CA23F00795572 /* Handshake */;
+			targetProxy = 4CE20E291B3CA23F00795572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CE20E211B3CA23F00795572 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE20E221B3CA23F00795572 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CE20E301B3CA23F00795572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CE20E311B3CA23F00795572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CE20E331B3CA23F00795572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Handshake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CE20E341B3CA23F00795572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Handshake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CE20E361B3CA23F00795572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandshakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handshake.app/Handshake";
+			};
+			name = Debug;
+		};
+		4CE20E371B3CA23F00795572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandshakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handshake.app/Handshake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE20E0E1B3CA23F00795572 /* Build configuration list for PBXProject "Handshake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE20E301B3CA23F00795572 /* Debug */,
+				4CE20E311B3CA23F00795572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE20E321B3CA23F00795572 /* Build configuration list for PBXNativeTarget "Handshake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE20E331B3CA23F00795572 /* Debug */,
+				4CE20E341B3CA23F00795572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE20E351B3CA23F00795572 /* Build configuration list for PBXNativeTarget "HandshakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE20E361B3CA23F00795572 /* Debug */,
+				4CE20E371B3CA23F00795572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CE20E0B1B3CA23F00795572 /* Project object */;
+}

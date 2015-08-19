@@ -1,0 +1,17 @@
+http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
+
+
+CREATE TABLE Users (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password CHAR(255) NOT NULL,
+    salt CHAR(255) NOT NULL
+)
+
+
+
+CREATE TABLE LoginAttempts (
+    user_id INT(11) NOT NULL,
+    time VARCHAR(30) NOT NULL
+)

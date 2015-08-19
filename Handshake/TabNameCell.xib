@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="eqP-eJ-VVh" customClass="TabNameCell" customModule="Handshake" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eqP-eJ-VVh" id="diV-hF-lBh">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncE-cT-eMn">
+                        <rect key="frame" x="270" y="11" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dHa-fU-dbG">
+                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="ALD-o5-SgF"/>
+                            <constraint firstAttribute="width" constant="32" id="Eec-eP-Ph7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="email address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2z-be-JlQ">
+                        <rect key="frame" x="52" y="28" width="211" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDi-3g-eXX">
+                        <rect key="frame" x="52" y="8" width="202" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dHa-fU-dbG" firstAttribute="leading" secondItem="diV-hF-lBh" secondAttribute="leading" id="8EP-sL-kBw"/>
+                    <constraint firstItem="fDi-3g-eXX" firstAttribute="top" secondItem="diV-hF-lBh" secondAttribute="topMargin" id="Rir-3i-JrF"/>
+                    <constraint firstItem="dHa-fU-dbG" firstAttribute="bottom" secondItem="J2z-be-JlQ" secondAttribute="bottom" id="Sbe-9g-RxW"/>
+                    <constraint firstAttribute="centerY" secondItem="dHa-fU-dbG" secondAttribute="centerY" id="Z1l-Ic-SYR"/>
+                    <constraint firstItem="ncE-cT-eMn" firstAttribute="trailing" secondItem="diV-hF-lBh" secondAttribute="trailingMargin" id="cm6-pE-xa8"/>
+                    <constraint firstAttribute="centerY" secondItem="ncE-cT-eMn" secondAttribute="centerY" id="h5w-sC-MrM"/>
+                    <constraint firstItem="fDi-3g-eXX" firstAttribute="leading" secondItem="J2z-be-JlQ" secondAttribute="leading" id="llX-p8-U2g"/>
+                    <constraint firstItem="fDi-3g-eXX" firstAttribute="leading" secondItem="dHa-fU-dbG" secondAttribute="trailing" constant="8" symbolic="YES" id="zG5-pc-bdV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="emailLabel" destination="J2z-be-JlQ" id="1xE-4M-V9u"/>
+                <outlet property="nameLabel" destination="fDi-3g-eXX" id="jdL-1W-mEa"/>
+                <outlet property="priceLabel" destination="ncE-cT-eMn" id="Lqw-Ak-eMN"/>
+                <outlet property="thumbnailView" destination="dHa-fU-dbG" id="0Y7-X7-SzQ"/>
+            </connections>
+            <point key="canvasLocation" x="466" y="463.5"/>
+        </tableViewCell>
+    </objects>
+</document>

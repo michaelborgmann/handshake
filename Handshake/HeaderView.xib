@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HandshakeViewController" customModule="Handshake" customModuleProvider="target">
+            <connections>
+                <outlet property="headerView" destination="nIl-NC-WAc" id="Mr1-AE-JLp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="8px-5N-MEO" customClass="HandshakeViewController" customModule="Handshake" customModuleProvider="target">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="Azq-r4-2Pr"/>
+                <viewControllerLayoutGuide type="bottom" id="jw3-OD-DI3"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="nIl-NC-WAc">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="25"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cz-4H-LLW">
+                        <rect key="frame" x="535" y="0.0" width="49" height="30"/>
+                        <state key="normal" title="Logout">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="logout:" destination="-1" eventType="touchUpInside" id="dab-eu-RhJ"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9E7-42-bYp">
+                        <rect key="frame" x="16" y="0.0" width="30" height="30"/>
+                        <state key="normal" title="Add">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="addTabName:" destination="-1" eventType="touchUpInside" id="bB8-O1-cNE"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJu-HO-N4O">
+                        <rect key="frame" x="73" y="4" width="454" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="9E7-42-bYp" firstAttribute="leading" secondItem="nIl-NC-WAc" secondAttribute="leadingMargin" id="Ew5-ue-hdj"/>
+                    <constraint firstItem="7cz-4H-LLW" firstAttribute="trailing" secondItem="nIl-NC-WAc" secondAttribute="trailingMargin" id="JJP-CL-pDX"/>
+                    <constraint firstItem="7cz-4H-LLW" firstAttribute="top" secondItem="Azq-r4-2Pr" secondAttribute="bottom" id="Jdv-az-G9O"/>
+                    <constraint firstItem="7cz-4H-LLW" firstAttribute="leading" secondItem="eJu-HO-N4O" secondAttribute="trailing" constant="8" id="dmc-Rq-Tn6"/>
+                    <constraint firstItem="9E7-42-bYp" firstAttribute="top" secondItem="Azq-r4-2Pr" secondAttribute="bottom" id="qzu-Wl-Yzq"/>
+                    <constraint firstItem="eJu-HO-N4O" firstAttribute="top" secondItem="Azq-r4-2Pr" secondAttribute="bottom" constant="4" id="tpg-5F-28V"/>
+                    <constraint firstItem="eJu-HO-N4O" firstAttribute="leading" secondItem="9E7-42-bYp" secondAttribute="trailing" constant="27" id="uUn-kY-uT1"/>
+                </constraints>
+            </view>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <size key="freeformSize" width="600" height="25"/>
+            <point key="canvasLocation" x="626" y="358.5"/>
+        </viewController>
+    </objects>
+</document>
